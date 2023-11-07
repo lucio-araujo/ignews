@@ -11,7 +11,8 @@ export default function Home() {
           rel="stylesheet"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>ignews</title>
+        <link rel="shortcut icon" href="favicon.png" type="image/png" />
+        <title>ig.news</title>
       </Head>
       <main>
         <h1>Hello, World!</h1>
