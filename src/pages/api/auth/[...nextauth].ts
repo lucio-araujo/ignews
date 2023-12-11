@@ -11,10 +11,10 @@ export default NextAuth({
       clientId: process.env.GITHUB_ID,
       clientSecret: process.env.GITHUB_SECRET,
       scope: ["read:user"],
-      jwt: {
-        secret: process.env.NEXTAUTH_JWT_SECRET,
-        signingKey: process.env.NEXTAUTH_JWT_SIGNINGKEY,
-      },
+      // jwt: {
+      //   secret: process.env.NEXTAUTH_JWT_SECRET,
+      //   signingKey: process.env.NEXTAUTH_JWT_SIGNINGKEY,
+      // },
     }),
   ],
   callbacks: {
